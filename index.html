@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="fr" prefix="og: https://ogp.me/ns#">
+
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="index_files/favicon.png" sizes="192x192" type="image/png">
+    <link rel="dns-prefetch" href="https://use.fontawesome.com/">
+    <title>Papadustream - Le site officiel des séries et films en Streaming</title>
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <meta name="description" content="Découvrez Papadustream, la plateforme n°1 pour le streaming de séries et films en VF/VOSTFR. Profitez d'une expérience gratuite et fluide dès maintenant !">
+    <meta name="keywords" content="Papadustream, streaming films gratuits, plateformes VF/VOSTFR, alternatives streaming, films en ligne, séries en streaming">
+    <meta property="og:locale" content="en_EN">
+    <meta property="og:title" content="Papadustream - Site Officiel de Films et Séries en Streaming">
+    <meta property="og:description" content="Découvrez Papadustream, la plateforme n°1 pour le streaming de séries et films en VF/VOSTFR. Profitez d'une expérience gratuite et fluide dès maintenant !">
+    <meta property="og:image" content="index_files/banner.jpg">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Papadustream">
+    <meta name="theme-color" content="#007AFF">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="index_files/banner.jpg">
+    <meta name="twitter:title" content="Papadustream - Site Officiel de Films et Séries en Streaming">
+    <meta name="twitter:description" content="Papadustream, la plateforme incontournable pour le streaming de films et séries en VF/VOSTFR. Profitez d'une expérience fluide et gratuite dès aujourd'hui !">
+    <link rel="preload" as="style" href="index_files/app-w8EAvTtU.css">
+    <link rel="stylesheet" href="index_files/app-w8EAvTtU.css" type="text/css">
+    <script src="../cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool'></script>
+    <meta name="msvalidate.01" content="9436CD171E50111514B1B19BA0239FC9" />
+    <style type="text/css">
+    body {
+        background-image: linear-gradient(rgba(26, 26, 26, 0.8), rgba(26, 26, 26, 0.9)), url("index_files/bg.jpg");
+        background-color: #fafafa;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    body {
+        margin: 0;
+        font: 400 1rem/1.5625rem sans-serif;
+        overflow-x: hidden;
+        word-wrap: break-word
+    }
+
+    .cont {
+        margin: 0 auto;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        width: 100%
+    }
+
+    .ft .cont {
+        justify-content: space-between;
+    }
+
+    .slider .Header {
+        margin-bottom: 0
+    }
+
+    .Header {
+        position: relative;
+        top: 0;
+        z-index: 11
+    }
+
+    @media (max-width: 992px) {
+        #home-logo {
+            display: none
+        }
+    }
+
+    @media (max-width: 991px) {
+        .Header .cont {
+            max-width: none !important
+        }
+
+        .Header .logo {
+            max-width: 272px;
+            z-index: 3;
+            width: 100%;
+            text-align: center
+        }
+
+        .bd .s_text {
+            margin: 0 1rem
+        }
+    }
+
+    @media (min-width: 1200px) {
+        .Header .logo {
+            margin-right: 3rem
+        }
+    }
+
+    #aa-wp {
+        overflow: hidden;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        transition: .1s ease-in-out
+    }
+
+    #aa-wp>.bd {
+        flex: 1 0 auto
+    }
+
+    .cuevana3io\:tv_logo,
+    .cuevana_enter {
+        text-align: center
+    }
+
+    .cuevana3io\:tv {
+        max-width: 666px
+    }
+
+    .cuevana3io\:tv_logo_img {
+        content: url(index_files/logo.png);
+        width: 100%;
+        height: auto;
+        max-width: 260px;
+        margin: 3rem 0;
+        z-index: 3
+    }
+
+    .search_lg {
+        position: relative;
+        margin-bottom: 3rem
+    }
+
+    .search_lg-input {
+        font-size: 1.1rem;
+        height: 4rem;
+        padding: 0 4rem 0 2rem;
+        background-color: #fff;
+        color: #333
+    }
+
+    .search_lg-input:focus {
+        background-color: #fff;
+        color: #333
+    }
+
+    .search_lg-btn {
+        width: 3.5rem;
+        height: 3.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin: .25rem;
+        padding: 0;
+        background-color: #0396d5
+    }
+
+    .s_text {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 2rem;
+        background: #ffffff1a;
+        border-radius: 16px;
+        box-shadow: 0 4px 30px #0000001a;
+        -webkit-backdrop-filter: blur(5px);
+        backdrop-filter: blur(5px);
+        border: 1px solid rgba(255, 255, 255, .2);
+        color: #b3d1ff
+    }
+
+    h1 {
+        line-height: 1.5;
+        margin: 0;
+        color: #fff;
+        font-size: 2rem
+    }
+
+    h2,
+    h3 {
+        font-size: .875rem;
+        line-height: 1.5;
+        margin: 0 0 1rem;
+        color: #fff;
+        letter-spacing: 1px
+    }
+
+    h2 {
+        text-transform: uppercase
+    }
+
+    .cuevana_enter {
+        margin-bottom: 3rem
+    }
+
+    .cuevana_enter-btn {
+        font-weight: 700;
+        font-size: 1.25rem;
+        display: inline-flex;
+        align-items: center;
+        padding: 1rem 2.5rem;
+        margin: 10px;
+        justify-content: center;
+        min-width: 260px;
+    }
+
+    .copy {
+        color: #74a1e3;
+        font-size: 1rem
+    }
+
+    .logo {
+        margin-bottom: 0;
+        margin-right: 1.5rem;
+        padding: 1.5rem 0;
+        position: relative;
+        z-index: 2
+    }
+
+    ul,
+    ol,
+    h1,
+    h2,
+    h3,
+    h4,
+    p,
+    figure {
+        margin: 0 0 1.25rem
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    .Title {
+        font-weight: 700
+    }
+
+    * {
+        box-sizing: border-box
+    }
+
+    .table-of-contents {
+        margin-bottom: 50px;
+    }
+
+    .table-of-contents h2 {
+        color: #45c4fa;
+    }
+
+    .s_text img {
+        margin-bottom: 20px;
+    }
+
+    #search-results {
+        position: absolute;
+        z-index: 9;
+        padding: 1rem;
+        border-radius: .75rem;
+        background-color: #fff;
+    }
+
+    .list-results {
+        list-style: none;
+        padding-left: 0;
+    }
+
+    .list-results .results-item {
+        padding: 0.5rem;
+    }
+
+    .list-results .results-item a {
+        display: flex;
+        align-items: center;
+    }
+
+    .list-results .results-item a img {
+        max-width: 58px;
+        height: auto;
+        border-radius: .375rem;
+    }
+
+    .list-results .results-item .info {
+        margin-left: 24px;
+    }
+
+    .list-results .results-item .info .title {
+        color: #3f3f46;
+    }
+
+    .list-results .results-item .info .mini-desc {
+        color: #71717a;
+        font-size: 0.85rem;
+    }
+
+    .telegram-button {
+        display: inline-block;
+        text-decoration: none;
+        padding: 15px 30px;
+        font-size: 18px;
+        font-weight: bold;
+        color: #fff;
+        background-color: #0088cc;
+        border-radius: 50px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        transition: all 0.3s ease;
+    }
+
+    .telegram-button:hover {
+        background-color: #006699;
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    }
+
+    .telegram-icon {
+        margin-right: 10px;
+        vertical-align: middle;
+    }
+
+    table {
+        border-collapse: collapse;
+        margin-bottom: 15px;
+        color: #fff;
+    }
+
+    td {
+        padding: 5px;
+        text-align: left;
+        border: 1px solid #0d5e79;
+    }
+
+    th {
+        border: 1px solid #0d5e79;
+        background-color: #033a59a3;
+    }
+    </style>
+</head>
+
+<body class="slider">
+    <div id="aa-wp">
+        <div class="bd"><br><br>
+            <div class="cont cuevana3io:tv">
+                <p id="home-logo" class="cuevana3io:tv_logo"><span class="cuevana3io:tv_logo_img"></span></p>
+                <p class="cuevana_enter">
+                    <a class="cuevana_enter-btn Button" href="https://series-streaming.fr/"><i class="fa-arrow-circle-right"></i>&nbsp;Voir le site officiel </a>
+                </p>
+            </div>
+            <div class="s_text">
+                <h1 style="text-align:center; font-size:1.5rem">Papadustream - Site Officiel de Films et Séries en Streaming</h1>
+                <p>
+                    Dans un monde où le streaming est devenu une partie essentielle de notre vie quotidienne,
+                    <strong>Papadustream</strong> se distingue comme une plateforme incontournable pour les amateurs de films et séries.
+                    Avec une vaste bibliothèque de contenus en VF et VOSTFR, Papadustream offre une expérience utilisateur fluide et captivante.
+                    Que vous soyez un passionné de cinéma ou un adepte des dernières séries, cette plateforme répondra à vos attentes avec une
+                    qualité exceptionnelle et une accessibilité impressionnante.
+                </p>
+                <img src="index_files/banner.jpg" alt="Papadustream" width="1200">
+                <br>
+                <section id="qu-est-ce-que-senpai-stream">
+                    <h2>Qu'est-ce que Papadustream ?</h2>
+                    <p>
+                        <strong>Papadustream</strong> est une plateforme de streaming en ligne qui propose une grande variété de films et séries,
+                        disponibles en versions doublées ou sous-titrées. Son interface intuitive et ses fonctionnalités avancées permettent aux utilisateurs
+                        de profiter d’un accès rapide et illimité à leurs contenus préférés.
+                    </p>
+                    <h3>Caractéristiques clés de Papadustream :</h3>
+                    <ul>
+                        <li><strong>Large choix de contenu</strong> : Une collection impressionnante de films et séries dans divers genres.</li>
+                        <li><strong>Options multilingues</strong> : Disponibilité en VF et VOSTFR pour s’adapter aux préférences de tous les spectateurs.</li>
+                        <li><strong>Interface utilisateur intuitive</strong> : Une navigation fluide et un design moderne qui rendent l'expérience agréable.</li>
+                        <li><strong>Streaming de haute qualité</strong> : Résolution HD et diffusion rapide sans interruption.</li>
+                        <li><strong>Accès gratuit</strong> : Une grande partie du contenu est disponible sans frais supplémentaires.</li>
+                    </ul>
+                </section>
+                <section id="pourquoi-choisir-senpai-stream">
+                    <h2>Pourquoi choisir Papadustream ?</h2>
+                    <p>
+                        Papadustream se distingue grâce à ses nombreux avantages compétitifs :
+                    </p>
+                    <ol>
+                        <li><strong>Accessibilité universelle</strong> : Compatible avec plusieurs appareils, y compris smartphones, tablettes et ordinateurs.</li>
+                        <li><strong>Expérience utilisateur optimisée</strong> : Une plateforme conçue pour minimiser les publicités intrusives et maximiser le plaisir de visionnage.</li>
+                        <li><strong>Bibliothèque mise à jour régulièrement</strong> : Retrouvez les derniers films et épisodes des séries populaires dès leur sortie.</li>
+                        <li><strong>Sécurité et fiabilité</strong> : Une navigation sécurisée sans risque de contenu malveillant.</li>
+                    </ol>
+                    <blockquote>
+                        "Papadustream est ma plateforme de streaming préférée. Je peux toujours trouver ce que je cherche sans payer une fortune." – Julie, Paris.
+                    </blockquote>
+                </section>
+                <section id="alternatives">
+                    <h2>Alternatives à Papadustream</h2>
+                    <p>
+                        Bien que Papadustream offre une expérience exceptionnelle, d'autres plateformes de streaming peuvent également répondre à vos besoins. Voici une comparaison rapide :
+                    </p>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Plateforme</th>
+                                <th>Avantages</th>
+                                <th>Inconvénients</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Netflix</td>
+                                <td>Large choix, contenu original</td>
+                                <td>Abonnement coûteux</td>
+                            </tr>
+                            <tr>
+                                <td>Amazon Prime Video</td>
+                                <td>Inclus avec Amazon Prime, contenu varié</td>
+                                <td>Interface parfois confuse</td>
+                            </tr>
+                            <tr>
+                                <td>Disney+</td>
+                                <td>Idéal pour les fans de franchises populaires</td>
+                                <td>Catalogue limité en dehors de Disney</td>
+                            </tr>
+                            <tr>
+                                <td>Crunchyroll</td>
+                                <td>Spécialisé en anime</td>
+                                <td>Principalement en anglais</td>
+                            </tr>
+                            <tr>
+                                <td>Canal+ Séries</td>
+                                <td>Séries européennes et internationales</td>
+                                <td>Nécessite un abonnement</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+                <section id="faqs">
+                    <h2>FAQs : Tout ce que vous devez savoir sur Papadustream</h2>
+                    <ul>
+                        <li><strong>Papadustream est-il gratuit ?</strong> Oui, une grande partie du contenu est gratuite, bien que certaines options premium puissent nécessiter un abonnement.</li>
+                        <li><strong>Quels types de films et séries sont disponibles ?</strong> Vous trouverez des films d'action, comédies, drames, ainsi que des séries populaires et des anime.</li>
+                        <li><strong>Puis-je télécharger des films ou séries sur Papadustream ?</strong> Actuellement, le téléchargement n’est pas pris en charge. Le contenu est exclusivement disponible en streaming.</li>
+                        <li><strong>Papadustream est-il légal ?</strong> Papadustream respecte les lois locales en vigueur, mais il est conseillé de vérifier selon votre région.</li>
+                        <li><strong>Quels appareils sont compatibles avec Papadustream ?</strong> La plateforme fonctionne sur smartphones, tablettes, ordinateurs et téléviseurs connectés.</li>
+                        <li><strong>Comment améliorer ma qualité de streaming ?</strong> Assurez-vous d’avoir une connexion internet stable et rapide.</li>
+                        <li><strong>Papadustream propose-t-il du contenu original ?</strong> Non, la plateforme agrège principalement des films et séries déjà disponibles sur le marché.</li>
+                        <li><strong>Le contenu est-il sous-titré ?</strong> Oui, beaucoup de films et séries sont disponibles en version sous-titrée (VOSTFR).</li>
+                    </ul>
+                </section>
+                <section id="conclusion">
+                    <h2>Conclusion</h2>
+                    <p>
+                        Avec ses fonctionnalités riches et une expérience utilisateur sans faille, <strong>Papadustream</strong> s’impose comme une solution idéale pour tous les passionnés de films et séries. Que vous recherchiez une soirée détente ou une session binge-watching, cette plateforme est faite pour vous.
+                    </p>
+                    <p><strong>Ne manquez pas l’occasion d’essayer Papadustream dès aujourd’hui et découvrez un univers de divertissement à portée de clic !</strong></p>
+                </section>
+            </div><br><br><br>
+            <p class="cuevana_enter"><a class="cuevana_enter-btn Button" href="https://series-streaming.fr/"><i class="fa-arrow-circle-right"></i>&nbsp;Voir le site officiel</a></p>
+        </div>
+        <footer class="ft">
+            <div class="cont dfxb alg-cr">
+                <figure class="logo-ft"><span style="height:2.4rem;width:auto;vertical-align:middle;max-width:100%;content:url(index_files/logo.png);"></span></figure>
+            </div>
+            <p class="copy tac" style="font-size:1rem;color:#fff;">Copyright © 2024 - Papadustream</p>
+            <p style="max-width:800px;text-align:center;margin: 0 auto 20px;line-height:1.6em;font-size:1rem;color:#fff;opacity:.7;">Papadustream - Watch the latest movies and series for free on the go!</p>
+        </footer>
+    </div>
+    <style type="text/css">
+    .fa,
+    .fab {
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;
+        display: inline-block;
+        font-style: normal;
+        font-variant: normal;
+        text-rendering: auto;
+        line-height: 1
+    }
+
+    @keyframes fa-spin {
+        0% {
+            transform: rotate(0)
+        }
+
+        to {
+            transform: rotate(1turn)
+        }
+    }
+
+
+    .fa-envelope:before {
+        content: "\f0e0";
+    }
+
+    .fa-search:before {
+        content: ""
+    }
+
+    .fa-play:before {
+        content: ""
+    }
+
+    .fa-facebook-f:before {
+        content: ""
+    }
+
+    .fa-twitter:before {
+        content: ""
+    }
+
+    .fa-arrow-circle-right:before {
+        content: ""
+    }
+
+    .fa-telegram-plane:before {
+        content: "\f3fe";
+    }
+
+    .sr-only-focusable:active,
+    .sr-only-focusable:focus {
+        clip: auto;
+        height: auto;
+        margin: 0;
+        overflow: visible;
+        position: static;
+        width: auto
+    }
+
+    @font-face {
+        font-family: "Font Awesome 5 Brands";
+        font-display: swap;
+        font-style: normal;
+        font-weight: 400;
+        src: url(https://use.fontawesome.com/releases/v5.6.3/webfonts/fa-brands-400.eot);
+        src: url(https://use.fontawesome.com/releases/v5.6.3/webfonts/fa-brands-400.eot?#iefix) format("embedded-opentype"), url(https://use.fontawesome.com/releases/v5.6.3/webfonts/fa-brands-400.woff2) format("woff2"), url(https://use.fontawesome.com/releases/v5.6.3/webfonts/fa-brands-400.woff) format("woff"), url(https://use.fontawesome.com/releases/v5.6.3/webfonts/fa-brands-400.ttf) format("truetype"), url(https://use.fontawesome.com/releases/v5.6.3/webfonts/fa-brands-400.svg#fontawesome) format("svg")
+    }
+
+    .fab {
+        font-family: "Font Awesome 5 Brands"
+    }
+
+    @font-face {
+        font-family: "Font Awesome 5 Free";
+        font-display: swap;
+        font-style: normal;
+        font-weight: 400;
+        src: url(https://use.fontawesome.com/releases/v5.6.3/webfonts/fa-regular-400.eot);
+        src: url(https://use.fontawesome.com/releases/v5.6.3/webfonts/fa-regular-400.eot?#iefix) format("embedded-opentype"), url(https://use.fontawesome.com/releases/v5.6.3/webfonts/fa-regular-400.woff2) format("woff2"), url(https://use.fontawesome.com/releases/v5.6.3/webfonts/fa-regular-400.woff) format("woff"), url(https://use.fontawesome.com/releases/v5.6.3/webfonts/fa-regular-400.ttf) format("truetype"), url(https://use.fontawesome.com/releases/v5.6.3/webfonts/fa-regular-400.svg#fontawesome) format("svg")
+    }
+
+    @font-face {
+        font-family: "Font Awesome 5 Free";
+        font-display: swap;
+        font-style: normal;
+        font-weight: 900;
+        src: url(https://use.fontawesome.com/releases/v5.6.3/webfonts/fa-solid-900.eot);
+        src: url(https://use.fontawesome.com/releases/v5.6.3/webfonts/fa-solid-900.eot?#iefix) format("embedded-opentype"), url(https://use.fontawesome.com/releases/v5.6.3/webfonts/fa-solid-900.woff2) format("woff2"), url(https://use.fontawesome.com/releases/v5.6.3/webfonts/fa-solid-900.woff) format("woff"), url(https://use.fontawesome.com/releases/v5.6.3/webfonts/fa-solid-900.ttf) format("truetype"), url(https://use.fontawesome.com/releases/v5.6.3/webfonts/fa-solid-900.svg#fontawesome) format("svg")
+    }
+
+    .fa {
+        font-family: "Font Awesome 5 Free"
+    }
+
+    .fa {
+        font-weight: 900
+    }
+    </style>
+    <script type="text/javascript" async="" src="index_files/main.js"></script>
+    <meta id="spine_extension">
+</body>
+
+
+<!-- Mirrored from papadustream.s3.amazonaws.com/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 26 Dec 2024 00:42:25 GMT -->
+</html>
